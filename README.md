@@ -7,3 +7,5 @@ The "Queueing" option actually has a specific story behind it as well: at one po
 What I *wasn't* expecting was for it to compile and work perfectly without editation. I'll say I was pretty surprised by it.
 
 Closing notes, I wouldn't recommend implementing boids this way. Though doing this as a per-agent simulation has perks like organic swarm merging, it is definitely a *per-agent* sim and naturally has the drawbacks of eventually resulting in an excessive amount of objects running more code than is reasonably efficient for the amount. Realistically I'd suggest implementing the standard, per-swarm way where the swarm object controls all the movement for a single swarm, and maybe ad-hoc realistic-looking swarm merging back in if you just absolutely need it.
+
+Addendum: For anyone looking to open this file, the Unity version is 5.1.3f1 or at the very least 5.1.3
