@@ -1,4 +1,4 @@
-#Flocking Experiments
+# Flocking Experiments
 
 I did this a long while back during AI courses at Full Sail University as a way to implement boids in my spare time (as I absolutely love the simple-implementation-yields-complex-results style of coding swarm and flock simulations) while we were learning about it.
 
